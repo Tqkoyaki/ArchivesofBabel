@@ -1,0 +1,39 @@
+# What is Computation?
+- Computers perform calculations and remembers the results
+- Calculations are built-in to the language and we use them to define our calculations
+- Computers only know what you tell them
+- Declarative knowledge: Statements of fact
+- Imperative knowledge: How to do something
+- Fixed program computers: Calculators (Only knows how to do one thing)
+- Stored program computers: Machines could store and execute instructions of various kinds
+- Basic Machine Architecture
+    - Arithmetic Logic Unit (ALU): Performs arithmetic and logical operations (Very Basic Operations)
+    - Memory: Stores data and instructions
+    - Control Unit: Fetches instructions from memory and executes them
+    - Input/Output: Communicates with the outside world
+- Instructions go line by line
+- Interpreter: Executes each instruction in order
+- The six primitatives are move left, move right, read, write, erase, and do nothing
+- These primitives are the building blocks of all computers and programming languages make use of them
+- Anything computable in one language is computable in any other language
+- Primitive constructs are words in English and are keywords in programming languages
+- Syntax is the structure of a language basically the grammar of a language
+- Semantics is the meaning of a language and in English can have multiple meanings but in programming languages it is very specific. Each line has a specific meaning
+- Static semantic errors can cause unexpected behavior
+- Programs can give unexpected results, won't stop running, or crash (Examples of errors)
+- A program is a sequence of definitions and commands
+- Commands instruct the interpreter to do something
+- A program manipulate data objects
+- Objects have a type that defines the kind of things programs can do to them
+- Objects are scalars (cannot be subdivided) or non-scalar (have internal structure that can be accessed)
+- Scalar objects include int (integers), float (floating point numbers), bool (boolean values), and NoneType (no value)
+- You can see the type of an object by using the type function `type(3)`
+- Type casting allows you to convert an object from one type to another `int(3.14)` or `float(3)`.
+- `print()` is a function that prints the value of an object to the screen
+- Expressions combine objects with operators to form new objects like `3 + 4`.
+- The operators include `+` (Addition), `-` (Subtraction), `*` (Multiplication), `/` (Division), `**` (Exponent), `%` (Modulus)
+- PEMDAS is the order of operations
+- Assignment is where you store a value in computer memory using a variable name `x = 3`. It binds the name to the value.
+- It lets us reuse names instead of values so it gives the values meaning.
+- Equal does not the same thing as assignment. In programming, `radius = radius + 1` is fine because it is adding one to radius but in math it makes no sense because it can never be equal.
+- Variables can be rebinded to different values using assignment values but then the old value is lost. `x = 3` then `x = x + 1` will give you 4.

@@ -1,0 +1,22 @@
+# Branching and Iteration
+- Strings are sequences of characters (letters, special characters, spaces, digits). Enclose in quotation marks or single quotes.
+- You can concatenate strings using the `+` operator.
+- You can repeat strings using the `*` operator.
+- Same order of operations as math.
+- Print is used to output stuff to the console. You can use commas to separate multiple things in the print statement. It will print a space between each thing. If you don't want that use string concatenation.
+- `input()` allows you to get input from the user. It will always return a string. You can put a string in the parentheses to prompt the user by printing it to the console. You can bind the result of the input to a variable.
+- Comparison Operators include `==` (equal), `!=` (not equal), `<` (less than), `>` (greater than), `<=` (less than or equal to), `>=` (greater than or equal to)
+- `not` is a logical operator that negates the value of the expression. `not True` is `False` and `not False` is `True`.
+- `and` is a logical operator that is true if both expressions are true. `True and True` is `True` and `True and False` is `False`.
+- `or` is a logical operator that is true if either expression is true. `True or True` is `True` and `True or False` is `True`.
+- The ways to add branching is through a simple `if`, a `if` and `else`, and a `if`, `elif`, and `else`.
+- Indentation matters in Python because it denotes the blocks of code.
+- `=` is for assignment and `==` is for checking if things are equal.
+- `while` loops are used to repeat a block of code while a condition is true. The condition is evaluated first and if it is true all the steps inside the code block is done and then the condition is checked again. This repeats till the condition is False.
+- If the condition is never false, it gives you an infinite loop.
+- Counters can be used in a while loop to loop a certain amount of times.
+- For loops are a shortcut that lets you loop a certain number of times.
+- For loops take a variable which has a value and loops through till all the numbers.
+- You can do `range(start, stop)` or `range(start, stop, step)` to loop through a certain range of numbers. Stop is exclusive and start is inclusive.
+- `break` immediately exits whatever loop it is in and skips the remaining expressions in code block. It only exits the innermost loop.
+- For loops are for when you know the number of iterations and uses a counter while while loops are for when you don't know the number of iterations and counters can be implemented but is not needed.
