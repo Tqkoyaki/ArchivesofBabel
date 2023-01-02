@@ -1,0 +1,11 @@
+# String Manipulation, Guess-and-Check, Approximations, Bisection
+- Strings are a sequence of case sensitive characters and you can compare them using the relational operators.
+- `len()` function returns the length of a string.
+- You can use square brackets to perform indexing into a string to get the value at a certain index / position. For `"abc"`, `a` is at index 0, `b` is at index 1, and `c` is at index 2. You can do `s[0]` to get the first character of the string `a`. You can use negative indexing to get the characters from last to first. So `s[-1]` is the last character of the string `c` and `s[-3]` is the first character of the string `a`.
+- You can slice strings using `[start:stop:step]` and if you give it two values it is `[start:stop]` with a step of 1.
+- Strings are immutable so you cannot modify them. You can only create new strings.
+- For loops can be used to iterate over any sequence of values. You can use `for` loops to iterate over strings because they are a sequence of characters.
+- Guess and check algorithms are also called exhaustive enumeration. You can use them to find the solution to a problem by trying every possible value until you find the solution.
+- Approximate solutions start with a guess and increment by some value. We keep guessing if the |guess - actual| is greater than or equal to some epsilon. Decreasing increment size leads to slower programs and increasing epsilon leads to less accurate results.
+- Bisection search is a technique where you check at the half interval each iteration and the new guess is half way in between. You keep getting rid of half your check size till you get the result.
+- Guesses for bisection search converge on the order of log2(n) steps and works when the value of a function varies monotonically (nonincreasing or nondecreasing) with input.
